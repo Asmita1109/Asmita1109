@@ -1,8 +1,3 @@
-## Hi there 👋
-
-<!--
-**Asmita1109/Asmita1109** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 # 💫 About Me:
 ## Hi there, I'm Asmita Gupta 👋  <br><br>🔭 **I’m currently working on**  <br>Building end-to-end data science and analytics projects involving Machine Learning, Power BI dashboards, and SQL-based data pipelines.<br><br>👯 **I’m looking to collaborate on**  <br>Open-source data science projects, analytics dashboards, AI/ML applications, and real-world business problem-solving projects.<br><br>🤝 **I’m looking for help with**  <br>Advanced machine learning optimization, deploying ML models, scalable data pipelines, and cloud-based analytics solutions.<br><br>🌱 **I’m currently learning**  <br>Deep Learning, NLP, Transformers, advanced SQL, and production-level ML workflows.<br><br>💬 **Ask me about**  <br>Python, SQL, Power BI, Machine Learning, Data Visualization, Business Analytics, and project-based learning.<br><br>⚡ **Fun fact**  <br>I enjoy turning raw data into meaningful insights and dashboards — and I’m equally passionate about badminton and swimming!<br>
 
