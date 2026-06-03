@@ -15,9 +15,9 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 | Project | Description | Stack |
 |---|---|---|
 | **[DisasterSense](https://github.com/Asmita1109/disastersense)** | Production AI system fusing Computer Vision + NLP to classify disaster images and tweets into a real-time crisis severity score — served via FastAPI, monitored on a live Metabase dashboard | PyTorch, HuggingFace, FastAPI, PostgreSQL, Docker, Metabase |
-| **Flight Delay Prediction** | End-to-end ML pipeline forecasting delays using FAA data with feature engineering and ensembling | Python, XGBoost, SQL, Plotly |
-| **Employee Attrition Predictor** | Classification model with SHAP explainability and an HR analytics dashboard | Python, scikit-learn, SHAP, Power BI |
-| **Driver Drowsiness Detection** | Real-time CNN-based alert system detecting drowsiness from facial landmarks via webcam | PyTorch, OpenCV, CNN |
+| **[Flight Delay Prediction](https://github.com/Asmita1109/Flight-Delay-Analysis)** | End-to-end ML pipeline forecasting delays using FAA data with feature engineering and ensembling | Python, XGBoost, SQL, Plotly |
+| **[Employee Attrition Predictor](https://github.com/Asmita1109/Employee_Attrition)** | Classification model with SHAP explainability and an HR analytics dashboard | Python, scikit-learn, SHAP, Power BI |
+| **[Driver Drowsiness Detection](https://github.com/Asmita1109/Driver-Drowsiness)** | Real-time CNN-based alert system detecting drowsiness from facial landmarks via webcam | PyTorch, OpenCV, CNN |
 
 ---
 
@@ -35,8 +35,6 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=flat-square&logo=plotly&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
 ![Metabase](https://img.shields.io/badge/Metabase-509EE3?style=flat-square&logo=metabase&logoColor=white)
 
@@ -46,12 +44,4 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 
 - **Building** ML projects focused on deployment and real-world impact
 - **Learning** Deep learning, transformers, NLP, and production ML workflows, AI Agents
-- **Open to** Data Scientist, AI/ML Engineer, Data Analyst, Data Engineer roles 
-
----
-
-### GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=Asmita1109&theme=nightowl&hide_border=true&include_all_commits=false&count_private=false)
-
-![](https://nirzak-streak-stats.vercel.app/?user=Asmita1109&theme=nightowl&hide_border=true)
+- **Open to** Data Scientist, AI/ML Engineer, Data Analyst, Data Engineer roles
