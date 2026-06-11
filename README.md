@@ -1,5 +1,4 @@
 ## Asmita Gupta
-
 **MS Business Analytics** · UMass Amherst &nbsp;|&nbsp; Data Scientist & ML Engineer
 
 Building end-to-end ML systems, analytics pipelines, and AI-powered applications.
@@ -15,6 +14,7 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 | Project | Description | Stack |
 |---|---|---|
 | **[DisasterSense](https://github.com/Asmita1109/disastersense)** | Production AI system fusing Computer Vision + NLP to classify disaster images and tweets into a real-time crisis severity score — served via FastAPI, monitored on a live Metabase dashboard | PyTorch, HuggingFace, FastAPI, PostgreSQL, Docker, Metabase |
+| **[Speech Emotion Recognition](https://github.com/Asmita1109/Speech_Emotion_Recognition)** | BiLSTM with Attention classifier on top of HuBERT features achieving 71.17% accuracy across 6 emotion classes on CREMA-D dataset, with audio augmentation and early stopping | PyTorch, HuBERT, BiLSTM, torchaudio, librosa |
 | **[Flight Delay Prediction](https://github.com/Asmita1109/Flight-Delay-Analysis)** | End-to-end ML pipeline forecasting delays using FAA data with feature engineering and ensembling | Python, XGBoost, SQL, Plotly |
 | **[Employee Attrition Predictor](https://github.com/Asmita1109/Employee_Attrition)** | Classification model with SHAP explainability and an HR analytics dashboard | Python, scikit-learn, SHAP, Power BI |
 | **[Driver Drowsiness Detection](https://github.com/Asmita1109/Driver-Drowsiness)** | Real-time CNN-based alert system detecting drowsiness from facial landmarks via webcam | PyTorch, OpenCV, CNN |
@@ -28,7 +28,6 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat-square&logo=TensorFlow&logoColor=white)
-![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat-square&logo=numpy&logoColor=blue)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
@@ -41,7 +40,6 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 ---
 
 ### Currently
-
 - **Building** ML projects focused on deployment and real-world impact
 - **Learning** Deep learning, transformers, NLP, and production ML workflows, AI Agents
 - **Open to** Data Scientist, AI/ML Engineer, Data Analyst, Data Engineer roles
