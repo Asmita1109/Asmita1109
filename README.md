@@ -13,6 +13,7 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 
 | Project | Description | Stack |
 |---|---|---|
+| **[CineIQ](https://github.com/Asmita1109/CineIQ)** | Self-improving movie intelligence platform — forecasts genre demand with LightGBM, recommends content via Neural Collaborative Filtering trained on SageMaker, and optimizes the recommendation policy using a Contextual Bandit RL agent. LLM layer generates personalized explanations per recommendation. Trained on 33.8M real ratings spanning 1995–2023. | Python, LightGBM, PyTorch, AWS SageMaker, Lambda, S3, Anthropic API |
 | **[DisasterSense](https://github.com/Asmita1109/disastersense)** | Production AI system fusing Computer Vision + NLP to classify disaster images and tweets into a real-time crisis severity score — served via FastAPI, monitored on a live Metabase dashboard | PyTorch, HuggingFace, FastAPI, PostgreSQL, Docker, Metabase |
 | **[Speech Emotion Recognition](https://github.com/Asmita1109/Speech_Emotion_Recognition)** | BiLSTM with Attention classifier on top of HuBERT features achieving 71.17% accuracy across 6 emotion classes on CREMA-D dataset, with audio augmentation and early stopping | PyTorch, HuBERT, BiLSTM, torchaudio, librosa |
 | **[Flight Delay Prediction](https://github.com/Asmita1109/Flight-Delay-Analysis)** | End-to-end ML pipeline forecasting delays using FAA data with feature engineering and ensembling | Python, XGBoost, SQL, Plotly |
@@ -40,6 +41,6 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 ---
 
 ### Currently
-- **Building** ML projects focused on deployment and real-world impact
-- **Learning** Deep learning, transformers, NLP, and production ML workflows, AI Agents
-- **Open to** Data Scientist, AI/ML Engineer, Data Analyst, Data Engineer roles
+- **Building** CineIQ — a self-improving movie intelligence platform with forecasting, recommendations, and RL
+- **Learning** Reinforcement learning, LLM systems, and production ML on AWS
+- **Open to** Data Scientist, ML Engineer, Data Engineer, Data Analyst roles
