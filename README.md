@@ -22,30 +22,6 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 
 ---
 
-## Asmita Gupta
-**MS Business Analytics** · UMass Amherst &nbsp;|&nbsp; Data Scientist & ML Engineer
-
-Building end-to-end ML systems, analytics pipelines, and AI-powered applications.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/asmita-v-gupta/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:asmitagpt1109@outlook.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/asmita_1109)
-
----
-
-### Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| **[CineIQ](https://github.com/Asmita1109/CineIQ)** | Self-improving movie intelligence platform -- forecasts genre demand with LightGBM (82% RMSE improvement), recommends content via Neural Collaborative Filtering with BPR loss trained on AWS SageMaker (NDCG@10 0.80), and optimizes recommendations using a LinUCB Contextual Bandit RL agent. Claude API generates personalized explanations. Trained on 33.8M real ratings spanning 28 years. **[Live Demo](https://cineiq-bh73b6kuriapczrbswjsuq.streamlit.app)** | Python · PyTorch · LightGBM · AWS SageMaker · S3 · Anthropic API · Streamlit |
-| **[DisasterSense](https://github.com/Asmita1109/disastersense)** | Production AI system fusing Computer Vision and NLP to classify disaster images and tweets into a real-time crisis severity score -- served via FastAPI, monitored on a live Metabase dashboard | PyTorch · HuggingFace · FastAPI · PostgreSQL · Docker · Metabase |
-| **[Speech Emotion Recognition](https://github.com/Asmita1109/Speech_Emotion_Recognition)** | BiLSTM with Attention classifier on top of HuBERT features achieving 71.17% accuracy across 6 emotion classes on CREMA-D dataset, with audio augmentation and early stopping | PyTorch · HuBERT · BiLSTM · torchaudio · librosa |
-| **[Flight Delay Prediction](https://github.com/Asmita1109/Flight-Delay-Analysis)** | End-to-end ML pipeline forecasting delays using FAA data with feature engineering and ensembling | Python · XGBoost · SQL · Plotly |
-| **[Employee Attrition Predictor](https://github.com/Asmita1109/Employee_Attrition)** | Classification model with SHAP explainability and an HR analytics dashboard | Python · scikit-learn · SHAP · Power BI |
-| **[Driver Drowsiness Detection](https://github.com/Asmita1109/Driver-Drowsiness)** | Real-time CNN-based alert system detecting drowsiness from facial landmarks via webcam | PyTorch · OpenCV · CNN |
-
----
-
 ### Tech Stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
