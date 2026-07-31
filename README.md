@@ -8,17 +8,15 @@ Building end-to-end ML systems, analytics pipelines, and AI-powered applications
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/asmita_1109)
 
 ---
-
-### Projects
-
 | Project | Description | Stack |
 |---|---|---|
-| **[CineIQ](https://github.com/Asmita1109/CineIQ)** | Self-improving movie intelligence platform — forecasts genre demand with LightGBM, recommends content via Neural Collaborative Filtering trained on SageMaker, and optimizes the recommendation policy using a Contextual Bandit RL agent. LLM layer generates personalized explanations per recommendation. Trained on 33.8M real ratings spanning 1995–2023. | Python, LightGBM, PyTorch, AWS SageMaker, Lambda, S3, Anthropic API |
-| **[DisasterSense](https://github.com/Asmita1109/disastersense)** | Production AI system fusing Computer Vision + NLP to classify disaster images and tweets into a real-time crisis severity score — served via FastAPI, monitored on a live Metabase dashboard | PyTorch, HuggingFace, FastAPI, PostgreSQL, Docker, Metabase |
-| **[Speech Emotion Recognition](https://github.com/Asmita1109/Speech_Emotion_Recognition)** | BiLSTM with Attention classifier on top of HuBERT features achieving 71.17% accuracy across 6 emotion classes on CREMA-D dataset, with audio augmentation and early stopping | PyTorch, HuBERT, BiLSTM, torchaudio, librosa |
-| **[Flight Delay Prediction](https://github.com/Asmita1109/Flight-Delay-Analysis)** | End-to-end ML pipeline forecasting delays using FAA data with feature engineering and ensembling | Python, XGBoost, SQL, Plotly |
-| **[Employee Attrition Predictor](https://github.com/Asmita1109/Employee_Attrition)** | Classification model with SHAP explainability and an HR analytics dashboard | Python, scikit-learn, SHAP, Power BI |
-| **[Driver Drowsiness Detection](https://github.com/Asmita1109/Driver-Drowsiness)** | Real-time CNN-based alert system detecting drowsiness from facial landmarks via webcam | PyTorch, OpenCV, CNN |
+| **[CineIQ](https://github.com/Asmita1109/CineIQ)** | Self-improving movie intelligence platform — forecasts genre demand with LightGBM, recommends content via Neural Collaborative Filtering trained on SageMaker (NDCG@10 = 0.80), and optimizes the recommendation policy using a LinUCB Contextual Bandit RL agent (+16.8% over baseline). LLM layer generates personalized explanations per recommendation via Anthropic Claude API. Trained on 33.8M real ratings spanning 1995–2023. | Python, LightGBM, PyTorch, AWS SageMaker, Lambda, S3, Anthropic Claude API, MLflow, Streamlit |
+| **[DisasterSense](https://github.com/Asmita1109/disastersense)** | Production AI system fusing Computer Vision + NLP to classify disaster images and tweets into a real-time 0–100 crisis severity score — served via FastAPI at sub-200ms latency, monitored on a live Metabase dashboard. Resolves a 4.65x class imbalance achieving 64% image accuracy and 75% tweet accuracy. | PyTorch, HuggingFace, FastAPI, PostgreSQL, Docker, Railway, Metabase |
+| **[Speech Emotion Recognition](https://github.com/Asmita1109/Speech_Emotion_Recognition)** | BiLSTM-Attention classifier on top of HuBERT features achieving 71.17% accuracy across 6 emotion classes on CREMA-D (7,462 samples), 4x above random baseline. Includes pitch shift, time stretch, and Gaussian noise augmentation pipeline. | PyTorch, HuBERT, BiLSTM, torchaudio, librosa |
+| **[Flight Delay Prediction](https://github.com/Asmita1109/Flight-Delay-Analysis)** | End-to-end ML pipeline on 500K+ FAA flight records — XGBoost tuned to R² 0.31 (RMSE 8 min), outperforming LR and Random Forest baselines after feature engineering across carrier, route, and temporal variables with cross-validation and residual analysis. | Python, XGBoost, SQL, Plotly, Scikit-learn, Pandas |
+| **[Driver Drowsiness Detection](https://github.com/Asmita1109/Driver-Drowsiness)** | Real-time CNN-based alert system detecting drowsiness from facial landmarks via webcam with data augmentation and Early Stopping. | PyTorch, OpenCV, CNN, Keras |
+| **[AtliQ Hotels Business Analytics](https://github.com/Asmita1109/Hotels_Analysis)** | End-to-end business analytics project on 134K+ hotel booking records across 5 relational datasets. Analyzed occupancy rates by room class, city, and weekday vs weekend; surfaced revenue realization gaps across booking platforms; detected overbooking anomalies using 3-sigma outlier detection to deliver actionable insights for hospitality operations. | Python, Pandas, NumPy, Matplotlib, Seaborn |
+| **[Employee Attrition Predictor](https://github.com/Asmita1109/Employee_Attrition)** |Multi-model attrition analysis on IBM HR data (1,470 employees, 16.1% attrition rate) — benchmarks Logistic Regression, SVM, KNN, Decision Tree, and Random Forest; Power BI dashboard for HR stakeholder reporting | Python, Scikit-learn, Pandas, EDA |
 
 ---
 
